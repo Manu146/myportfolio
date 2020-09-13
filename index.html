@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="s1" id="home">
+      <div class="bg-layer">
+        <nav class="main-nav">
+          <button class="mobile-btn" onclick="toggleMobNav()">
+            <i class="material-icons">menu</i>
+          </button>
+          <ul class="nav-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+        <div class="main-container">
+          <div class="info-wrapper">
+            <div class="avatar">
+              <a href=""><img src="" alt="" /></a>
+            </div>
+            <h1>Teemo fullap</h1>
+            <h3>Web Developer</h3>
+            <ul class="social-links">
+              <li>
+                <a href="#home"><img src="imgs/github-icon.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="imgs/linkedin-icon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="imgs/twitter-icon.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <a href="#about" class="main-arrow"
+            ><i class="material-icons">keyboard_arrow_down</i></a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="s2" id="about">
+      <div class="container content">
+        <h1>About me</h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, corrupti
+        ad? Omnis reprehenderit sint alias harum sunt! Labore, atque nostrum?
+      </div>
+    </section>
+    <section class="s3" id="projects">
+      <div class="container content">
+        <h1>My Projects</h1>
+        <div class="projects-wrapper">
+          <div class="project-card">
+            <img src="" alt="" />
+            <div class="project-card-content">
+              <h4>Ecommerce</h4>
+              <p>
+                Simple ecommerce store made using react, react hooks and
+                tailwindcss.
+              </p>
+              <a href="" class="project-link">View code</a>
+              <a href="#" class="project-link">Live</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="" />
+            <div class="project-card-content">
+              <h4>Project 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur velit eligendi quas!
+              </p>
+              <a href="#" class="project-link">View code</a
+              ><a href="#" class="project-link">Live</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="" />
+            <div class="project-card-content">
+              <h4>Project 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur velit eligendi quas!
+              </p>
+              <a href="#" class="project-link">View code</a
+              ><a href="#" class="project-link">Live</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="" alt="" />
+            <div class="project-card-content">
+              <h4>Project 1</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur velit eligendi quas!
+              </p>
+              <a href="#" class="project-link">View code</a
+              ><a href="#" class="project-link">Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s4">
+      <div class="bg-layer">
+        <div class="container content form-wrapper">
+          <h1 class="form-title">Get in touch</h1>
+          <form action="" class="contact-form">
+            <div class="input-field">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="" />
+            </div>
+            <div class="input-field">
+              <label for="subject">Subject:</label>
+              <input type="text" name="subject" id="" />
+            </div>
+            <div class="input-field">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="" />
+            </div>
+            <div class="input-field">
+              <label for="message">Message:</label>
+              <textarea name="message"></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
