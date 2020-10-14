@@ -265,30 +265,34 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 2rem;
+  align-items: start;
 }
 
 .project-card {
   border-radius: 0.25rem;
-  background-color: hsl(0, 0%, 15%);
+  background-color: #262626;
 }
 
 .project-card-content {
-  padding: 1.5rem;
+  margin-top: -1rem;
+  padding: 1rem;
 }
 
 .project-card img {
   height: auto;
   width: 100%;
+  border-radius: 0.25rem;
 }
 
 .project-card-content h4 {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid rgb(74, 77, 100);
+  margin-bottom: 0.5rem;
 }
 
 .project-card-content p {
+  margin-top: 1rem;
+  border-top: 2px solid rgb(74, 77, 100);
   margin-bottom: 1rem;
+  padding-top: 0.5rem;
 }
 
 .project-link {
