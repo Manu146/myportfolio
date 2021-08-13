@@ -328,7 +328,11 @@ button {
 }
 
 .s4 {
-  background: url(imgs/bg3.jpg);
+  background-image: linear-gradient(
+      rgba(122, 122, 122, 0.2),
+      rgba(122, 122, 122, 0.2)
+    ),
+    url(imgs/realistic_stars_no_glow.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
