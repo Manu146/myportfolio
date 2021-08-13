@@ -147,11 +147,22 @@ button {
 }
 
 .s1 {
-  background: url(imgs/bg.jpg);
+  background-image: linear-gradient(
+      rgba(122, 122, 122, 0.2),
+      rgba(122, 122, 122, 0.2)
+    ),
+    url(imgs/realistic_stars_no_glow.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
+  position: relative;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .bg-layer {

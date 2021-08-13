@@ -16,6 +16,7 @@
   </head>
   <body>
     <section class="s1" id="home">
+      <div id="particles-js"></div>
       <div class="bg-layer">
         <nav class="main-nav">
           <button class="mobile-btn" onclick="toggleMobNav()">
@@ -170,5 +171,11 @@
       </div>
     </section>
     <script src="script.js"></script>
+    <script src="./particles.min.js" /></script>
+    <script>
+      particlesJS.load('particles-js', './particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>
