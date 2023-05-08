@@ -260,17 +260,6 @@ button {
   z-index: -1;
 }
 
-.s3::after {
-  content: "";
-  background: hsl(0, 0%, 13%);
-  height: 6rem;
-  width: 100%;
-  transform: skewY(3deg);
-  position: absolute;
-  bottom: -2.5rem;
-  z-index: -1;
-}
-
 .projects-wrapper {
   padding-top: 1.5rem;
   display: grid;
