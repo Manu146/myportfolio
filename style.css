@@ -234,7 +234,7 @@ button {
 .s2::before {
   content: "";
   background: rgb(27, 27, 27);
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   transform: skewY(3deg);
   position: absolute;
@@ -252,7 +252,7 @@ button {
 .s3::before {
   content: "";
   background: hsl(0, 0%, 13%);
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   transform: skewY(-3deg);
   position: absolute;
@@ -263,7 +263,7 @@ button {
 .s3::after {
   content: "";
   background: hsl(0, 0%, 13%);
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   transform: skewY(3deg);
   position: absolute;
