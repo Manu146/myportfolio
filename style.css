@@ -102,6 +102,9 @@ button {
   display: flex;
 }
 
+.social-links li {
+  z-index: 99;
+}
 .nav-items {
   width: 100%;
   display: none;
@@ -226,15 +229,37 @@ button {
 .s2 {
   position: relative;
   background-color: rgb(27, 27, 27);
-  height: 500px;
+  height: auto;
   color: white;
   z-index: 0;
+}
+
+.s2 h1 {
+  margin-bottom: 1.5rem;
+}
+
+.s2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s2 .content {
+  padding-bottom: 12rem;
+}
+
+.about-text {
+  width: auto;
+  font-size: 1rem;
+  line-height: 130%;
+  letter-spacing: 0.05rem;
+  color: #cccccc;
 }
 
 .s2::before {
   content: "";
   background: rgb(27, 27, 27);
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   transform: skewY(3deg);
   position: absolute;
@@ -252,7 +277,7 @@ button {
 .s3::before {
   content: "";
   background: hsl(0, 0%, 13%);
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   transform: skewY(-3deg);
   position: absolute;
@@ -260,15 +285,9 @@ button {
   z-index: -1;
 }
 
-.s3::after {
-  content: "";
-  background: hsl(0, 0%, 13%);
-  height: 5rem;
-  width: 100%;
-  transform: skewY(3deg);
-  position: absolute;
-  bottom: -2.5rem;
-  z-index: -1;
+.s3 h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .projects-wrapper {
@@ -280,13 +299,17 @@ button {
 }
 
 .project-card {
-  border-radius: 0.25rem;
-  background-color: #262626;
+  border-radius: 0.5rem;
+  background-color: #303030;
 }
 
 .project-card-content {
   margin-top: -1rem;
   padding: 1rem;
+}
+
+.project-card p {
+  color: #cccccc;
 }
 
 .project-card img {
@@ -399,8 +422,15 @@ button {
 }
 
 @media (min-width: 640px) {
+  .s2 h1 {
+    margin-bottom: 1.5rem;
+  }
+  .about-text {
+    width: 75ch;
+    font-size: 1.25rem;
+  }
   .content {
-    padding: 3rem 2rem;
+    padding: 5rem 2rem;
   }
   .mobile-btn {
     display: none;
