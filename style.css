@@ -235,7 +235,17 @@ button {
 }
 
 .s2 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.s2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s2 .content {
+  padding-bottom: 12rem;
 }
 
 .about-text {
@@ -273,6 +283,11 @@ button {
   position: absolute;
   top: -2.5rem;
   z-index: -1;
+}
+
+.s3 h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .projects-wrapper {
@@ -403,6 +418,9 @@ button {
 }
 
 @media (min-width: 640px) {
+  .s2 h1 {
+    margin-bottom: 1.5rem;
+  }
   .about-text {
     width: 75ch;
     font-size: 1.25rem;
