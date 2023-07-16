@@ -1,0 +1,41 @@
+{
+  "heroH1": { "en_US": "Hi, i'm Manuel", "es_ES": "Hola, soy Manuel" },
+  "heroH2": { "en_US": "Web Developer", "es_ES": "Desarrollador Web" },
+  "navA1": { "en_US": "Home", "es_ES": "Inicio" },
+  "navA2": { "en_US": "About me", "es_ES": "Sobre mi" },
+  "navA3": { "en_US": "Projects", "es_ES": "Proyectos" },
+  "aboutH1": { "en_US": "About me", "es_ES": "Sobre mi" },
+  "aboutP": {
+    "en_US": "I am passionate about technology and computers with a great interest in understanding their operation, from hardware to software.\n\nMy experience in web development began with a personal project focused on the \"Internet of Things\" and microcontrollers. To advance in this personal project, I acquired skills in building simple web pages with interaction and dynamism, which led me to delve into the world of web development self-taught.\n\nUsing learning platforms and taking advantage of previous programming knowledge, I started my career in this field. I specialize mainly in frontend, although I have a solid knowledge base in backend. Currently, I am an electrical engineering student and develop web-focused products as a \"Freelance\".",
+    "es_ES": "Soy un apasionado de la tecnología y las computadoras con un gran interés en comprender su funcionamiento, desde el hardware hasta el software.\n\nMi experiencia en el desarrollo web comenzó con un proyecto personal enfocado en el \"Internet de las cosas\" y microcontroladores. Para avanzar en este proyecto personal, adquirí habilidades en la construcción de páginas web sencillas con interacción y dinamismo, lo cual me llevó a adentrarme en el mundo del desarrollo web de manera autodidacta.\n\nUtilizando plataformas de aprendizaje y aprovechando conocimientos previos en programación, inicié mi trayectoria en este campo. Me especializo sobre todo en el frontend, aunque cuento con una sólida base de conocimientos en el backend. Actualmente soy estudiante de ingeniería eléctrica y desarrollo productos enfocados en la web bajo la modalidad \"Freelance\"."
+  },
+  "projectsH1": { "en_US": "My projects", "es_ES": "Mis proyectos" },
+  "pro1H4": { "en_US": "Ecommerce site", "es_ES": "Ecommerce" },
+  "pro2H4": {
+    "en_US": "Instagram Stories clone",
+    "es_ES": "Clon de Instagram Stories"
+  },
+  "pro3H4": {
+    "en_US": "Microsoft's landing page clone",
+    "es_ES": "Clon página de inicio de Microsoft"
+  },
+  "pro4H4": { "en_US": "PokeApp", "es_ES": "PokeApp" },
+  "pro1P": {
+    "en_US": "Ecommerce site develovep using React and TailwindCss",
+    "es_ES": "Sitio web ecommerce hecho con React y tailwindcss. "
+  },
+  "pro2P": {
+    "en_US": "",
+    "es_ES": "Pequeña web app que imita el funcionamiento de las \"stories\" de instagram. Hecha con React y StyledComponents. "
+  },
+  "pro3P": {
+    "en_US": "A clone of Microsoft's homepage, made with plain HTML+CSS and a little bit of Javascript.",
+    "es_ES": "Un clon de la página de inicio de Microsoft. Hecha con HTML, CSS y un poco de JS. "
+  },
+  "pro4P": {
+    "en_US": "Web app developed with React that uses the PokeApi to show pokemons.",
+    "es_ES": "Aplicacion web desarrollada con React. Consume la api PokeAPI para mostrar distintos pokemones. "
+  },
+  "projectsA1": { "en_US": "View code", "es_ES": "Repositorio" },
+  "projectsA2": { "en_US": "Live", "es_ES": "Web" }
+}

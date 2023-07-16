@@ -23,9 +23,15 @@
             <i class="material-icons">menu</i>
           </button>
           <ul class="nav-items">
-            <li><a href="#home">Inicio</a></li>
-            <li><a href="#about">Sobre mi</a></li>
-            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#home" data-translatable="navA1">Inicio</a></li>
+            <li><a href="#about" data-translatable="navA2">Sobre mi</a></li>
+            <li><a href="#projects" data-translatable="navA3">Proyectos</a></li>
+            <li class="lang-selector-li">
+              <div id="lang-selector">
+                a
+              </div>
+              <ul id="dropdown" class="dropdown-content"></ul>
+            </li>
           </ul>
         </nav>
         <div class="main-container">
@@ -33,14 +39,14 @@
             <div class="avatar">
               <a href=""><img src="" alt="" /></a>
             </div>
-            <h1>Hola, soy Manuel</h1>
-            <h3>Desarrollador Web</h3>
+            <h1 data-translatable="heroH1">Hola, soy Manuel</h1>
+            <h3 data-translatable="heroH2">Desarrollador Web</h3>
             <ul class="social-links">
               <li>
-                <a href="https://github.com/Manu146" target="_blank"><img src="./imgs/icons/github-icon.svg" alt="" /></a>
+                <a  href="https://github.com/Manu146" target="_blank"><img src="./imgs/icons/github-icon.svg" alt="" /></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/manuel-barrios-03794b175/" target="_blank"><img src="./imgs/icons/linkedin-icon.png" alt="" /></a>
+                <a  href="https://www.linkedin.com/in/manuel-barrios-03794b175/" target="_blank"><img src="./imgs/icons/linkedin-icon.png" alt="" /></a>
               </li>
             </ul>
           </div>
@@ -52,8 +58,8 @@
     </section>
     <section class="s2" id="about">
       <div class="container content">
-        <h1>Sobre mi</h1>
-       <p class="about-text"> Soy un apasionado de la tecnología y las computadoras con un gran interés en comprender su funcionamiento, desde el hardware hasta el software. 
+        <h1 data-translatable="aboutH1">Sobre mi</h1>
+       <p class="about-text" data-translatable="aboutP"> Soy un apasionado de la tecnología y las computadoras con un gran interés en comprender su funcionamiento, desde el hardware hasta el software. 
         <br><br>Mi experiencia en el desarrollo web comenzó con un proyecto personal enfocado en el "Internet de las cosas" y microcontroladores. Para avanzar en este proyecto personal, adquirí habilidades en la construcción de páginas web sencillas con interacción y dinamismo, lo cual me llevó a adentrarme en el mundo del desarrollo web de manera autodidacta. 
         <br><br>Utilizando plataformas de aprendizaje y aprovechando conocimientos previos en programación, inicié mi trayectoria en este campo. 
         Me especializo sobre todo en el frontend, aunque cuento con una sólida base de conocimientos en el backend. Actualmente soy estudiante de ingeniería eléctrica y desarrollo productos enfocados en la web bajo la modalidad "Freelance".</p>
@@ -61,79 +67,84 @@
     </section>
     <section class="s3" id="projects">
       <div class="container content">
-        <h1>Mis proyectos</h1>
+        <h1 data-translatable="projectsH1">Mis proyectos</h1>
         <div class="projects-wrapper">
           <div class="project-card">
-            <img src="" alt="" />
             <div class="project-card-content">
-              <h4>Ecommerce</h4> 
+              <h4 data-translatable="pro1H4">Ecommerce</h4> 
               <img src="./imgs/greenshop.png" />
-              <p>
+              <p data-translatable="pro1P">
                 Sitio web ecommerce hecho con React y tailwindcss.
               </p>
               <a
                 href="https://github.com/Manu146/ecommerce-localdata"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA1"
                 >Repositorio</a
               >
               <a
                 href="https://manu146.github.io/ecommerce-localdata/"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA2"
                 >Web</a
               >
             </div>
           </div>
           <div class="project-card">
-            <img src="" alt="" />
             <div class="project-card-content">
-              <h4>Clon de Instagram Stories</h4> <img src="./imgs/ig-stories.png" />
-              <p>
+              <h4 data-translatable="pro2H4">Clon de Instagram Stories</h4> 
+              <img src="./imgs/ig-stories.png" />
+              <p data-translatable="pro2P">
                 Pequeña web app que imita el funcionamiento de las "stories" de instagram. Hecha con React y StyledComponents.
               </p>
               <a
                 href="https://github.com/Manu146/instagram-stories-clone"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA1"
                 >Repositorio</a
               ><a
                 href="https://manu146.github.io/instagram-stories-clone/"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA2"
                 >Web</a
               >
             </div>
           </div>
           <div class="project-card">
-            <img src="" alt="" />
             <div class="project-card-content">
-              <h4>Clon página de inicio de Microsoft</h4> <img src="./imgs/homepage-clone.png" />
-              <p>
+              <h4 data-translatable="pro3H4">Clon página de inicio de Microsoft</h4>
+              <img src="./imgs/homepage-clone.png" />
+              <p data-translatable="pro3P">
                 Un clon de la página de inicio de Microsoft. Hecha con HTML, CSS y un poco de JS.
               </p>
               <a
                 href="https://github.com/Manu146/microsoft-homepage-clone"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA1"
                 >Repositorio</a
               ><a
                 href="https://manu146.github.io/microsoft-homepage-clone/"
                 class="project-link"
                 target="_blank"
+                data-translatable="projectsA2"
                 >Web</a
               >
             </div>
           </div>
           <div class="project-card">
-            <img src="" alt="" />
             <div class="project-card-content">
-              <h4>PokeApp</h4> <img src="./imgs/pokeapp.png" class=""> </img>
-              <p>
+              <h4 data-translatable="pro4H4">PokeApp</h4> 
+              <img src="./imgs/pokeapp.png" class=""></img>
+              <p data-translatable="pro4P">
                 Aplicacion web desarrollada con React. Consume la api PokeAPI para mostrar distintos pokemones.
               </p>
-              <a href="https://github.com/Manu146/pokeapp" class="project-link" target="_blank">Repositorio</a
-              ><a href="https://manu146.github.io/pokeapp/" class="project-link" target="_blank">Web</a>
+              <a href="https://github.com/Manu146/pokeapp" class="project-link" target="_blank" data-translatable="projectsA1">Repositorio</a
+              ><a href="https://manu146.github.io/pokeapp/" class="project-link" target="_blank" data-translatable="projectsA2">Web</a>
             </div>
           </div>
         </div>
@@ -141,6 +152,7 @@
     </section>
     <script src="script.js"></script>
     <script src="./particles.min.js" /></script>
+    <script src="./out.js"></script>
     <script>
       particlesJS.load('particles-js', './particles.json', function() {
         console.log('callback - particles.js config loaded');

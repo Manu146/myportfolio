@@ -134,6 +134,55 @@ button {
   background-color: hsl(233, 15%, 40%);
 }
 
+.language-btn {
+  border: 1px solid rgb(74, 77, 100);
+  border-radius: 0;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+}
+
+#dropdown > li:last-child button {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+#lang-selector {
+  border: 1px solid rgb(74, 77, 100);
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  transition: background 0.3s ease-in-out;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+}
+
+.lang-selector-li:hover #dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+#dropdown {
+  display: none;
+  width: 100%;
+}
+
+#dropdown li {
+  margin: 0;
+}
+
+.lang-selector-li:hover #lang-selector {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: hsl(233, 15%, 40%);
+}
+
+.language-btn:hover {
+  background-color: hsl(233, 15%, 40%);
+}
+
 .mobile-btn {
   border: 1px solid rgb(74, 77, 100);
   border-radius: 0.5rem;
@@ -250,10 +299,11 @@ button {
 
 .about-text {
   width: auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 130%;
   letter-spacing: 0.05rem;
   color: #cccccc;
+  white-space: pre-wrap;
 }
 
 .s2::before {
@@ -304,7 +354,6 @@ button {
 }
 
 .project-card-content {
-  margin-top: -1rem;
   padding: 1rem;
 }
 
@@ -412,6 +461,10 @@ button {
   background-color: hsl(233, 15%, 40%);
 }
 
+.hidden {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .nav-items {
     display: flex;
@@ -419,15 +472,15 @@ button {
   .mobile-btn {
     display: none;
   }
+  .about-text {
+    width: 65ch;
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 640px) {
   .s2 h1 {
     margin-bottom: 1.5rem;
-  }
-  .about-text {
-    width: 75ch;
-    font-size: 1.25rem;
   }
   .content {
     padding: 5rem 2rem;
